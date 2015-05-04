@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi=
+"http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+ 
+	<groupId>de.biomedical-imaging.imagej</groupId>
+	<artifactId>ij_ridge_detect</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+ 
+	<name>Watershed Irregular Structures</name>
+	<url>http://fiji.sc/BioVoxxel_Toolbox#Watershed_Irregular_Structures</url>
+ 	<dependencies>
+		<dependency>
+   	 		<groupId>net.imagej</groupId>
+   	 		<artifactId>ij</artifactId>
+  	 		<version>1.49r</version>
+		</dependency>
+	</dependencies>
+	<developers>
+		<developer>
+			<id>twagner</id>
+			<name>Thorsten Wagner</name>
+			<email>wagner@biomedical-imaging.de</email>
+			<properties>
+				<active>true</active>
+			</properties>
+		</developer>
+	</developers>
+
+</project>
