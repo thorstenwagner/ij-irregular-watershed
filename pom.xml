@@ -5,9 +5,16 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
  
 	<groupId>de.biomedical-imaging.imagej</groupId>
-	<artifactId>ij_ridge_detect</artifactId>
+	<artifactId>ij_irregular_watershed</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	
+	<parent>
+		<groupId>net.imagej</groupId>
+		<artifactId>pom-imagej</artifactId>
+		<version>7.0.0</version>
+		<relativePath />
+	</parent>
  
 	<name>Watershed Irregular Structures</name>
 	<url>http://fiji.sc/BioVoxxel_Toolbox#Watershed_Irregular_Structures</url>
@@ -16,6 +23,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
    	 		<groupId>net.imagej</groupId>
    	 		<artifactId>ij</artifactId>
   	 		<version>1.49r</version>
+		</dependency>
+		<dependency>
+   	 		<groupId>de.biomedical_imaging.ij.ijblob</groupId>
+   	 		<artifactId>ijblob</artifactId>
+  	 		<version>1.3.0</version>
 		</dependency>
 	</dependencies>
 	<developers>
